@@ -1,0 +1,9 @@
+element click intercepted: Element <a class="courseindex-link text-truncate" href="https://sandbox.moodledemo.net/mod/forum/view.php?id=1" data-for="cm_name" tabindex="-1">...</a> is not clickable at point (81, 185). Other element would receive the click: <div data-flexitour="backdrop" style="z-index: 1031;"></div>
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [57fafd0abfcbf1937024fec22637e88c, clickElement {id=f.BF964068C2ABCCEC00EED04BA35CF157.d.AF42CC70848A3AE5284FAD2212184D35.e.84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60422}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.195.105:4444/s..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (57fafd0abfcbf1937024fec22637e88c)] -> xpath: //a[@href='https://sandbox.moodledemo.net/mod/forum/view.php?id=1']]
+Session ID: 57fafd0abfcbf1937024fec22637e88c

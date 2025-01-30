@@ -1,0 +1,10 @@
+invalid selector: Unable to locate an element with the xpath expression //a[@href='https://sandbox.moodledemo.net/mod/forum/view.php?id=1''] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@href='https://sandbox.moodledemo.net/mod/forum/view.php?id=1'']' is not a valid XPath expression.
+  (Session info: chrome=132.0.6834.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9fbbbc24f0138622d2707d4a2c2d90c4, findElement {using=xpath, value=//a[@href='https://sandbox.moodledemo.net/mod/forum/view.php?id=1'']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.195.105:4444/s..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fbbbc24f0138622d2707d4a2c2d90c4

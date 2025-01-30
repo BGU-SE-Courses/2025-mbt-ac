@@ -1,0 +1,9 @@
+element click intercepted: Element <a class="btn btn-primary" data-toggle="collapse" href="#collapseAddForm" id="yui_3_18_1_1_1738098659631_37" aria-expanded="true">...</a> is not clickable at point (692, 18). Other element would receive the click: <a class="btn btn-open rounded-0 nav-link" data-toggle="collapse" data-action="opensearch" href="#searchform-navbar" role="button" aria-expanded="false" aria-controls="searchform-navbar" title="Toggle search input">...</a>
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [392794c4f81594edaa806d9495d513af, clickElement {id=f.E52ED32EB3633E0CA2C1D8A359043DC9.d.6A9056C5701EBFC10936AF9029286EEF.e.115}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.111 (c252d6a429e..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.10.105:4444/se..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (392794c4f81594edaa806d9495d513af)] -> xpath: //a[@class='btn btn-primary' and @data-toggle='collapse']]
+Session ID: 392794c4f81594edaa806d9495d513af

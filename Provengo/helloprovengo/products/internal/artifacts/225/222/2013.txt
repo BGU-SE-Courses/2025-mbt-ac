@@ -1,0 +1,9 @@
+element click intercepted: Element <a class="btn btn-primary" data-toggle="collapse" href="#collapseAddForm" id="yui_3_18_1_1_1738066241124_37" aria-expanded="true">...</a> is not clickable at point (439, 18). Other element would receive the click: <div class="container-fluid">...</div>
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [463f864df0db605379e064ec258b799b, clickElement {id=f.743FD2871B2B42B968508D0A143055B4.d.DA8FEA4801E05D9264AD93C737B944E5.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.10.105:4444/se..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (463f864df0db605379e064ec258b799b)] -> xpath: //a[@class='btn btn-primary' and @data-toggle='collapse' and @href='#collapseAddForm']]
+Session ID: 463f864df0db605379e064ec258b799b

@@ -1,0 +1,1 @@
+Expected condition failed: waiting for at least one condition to be valid: presence of element located by: By.xpath: //div[contains(@class, 'alert-success') and contains(text(), 'Your post was successfully added.')] (tried for 10 second(s) with 500 milliseconds interval)
