@@ -1,8 +1,3 @@
-Feature: Message Board Interaction
-  As a student and teacher
-  I want to manage messages on the message board
-  So that communication can be moderated effectively
-
 Feature: Managing messages on the message board
 
   Scenario: A student clicks on a previous message, and a teacher deletes the same message
