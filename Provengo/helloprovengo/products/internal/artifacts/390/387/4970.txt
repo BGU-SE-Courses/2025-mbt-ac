@@ -1,0 +1,87 @@
+javascript error: Unexpected end of input
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [f01da90b540210ad35d6d4894975af29, executeScript {script=const __retVal__ = {
+    log: [],
+    rtv_values: {}
+};
+
+const pvg = {
+    params: [],
+    success: function(aMessage) {
+        throw {
+            status: "success",
+            message: aMessage,
+            type: "pvg"
+        };
+    },
+    fail: function(aMessage) {
+        throw {
+            status: "fail",
+            message: aMessage,
+            type: "pvg"
+        };
+    },
+    error: function(aMessage) {
+        throw {
+            status: "error",
+            message: aMessage,
+            type: "pvg"
+        };
+    },
+    log: function(aMessage) {
+        __retVal__.log.push(aMessage);
+    },
+    rtv: {
+        set: function(key, value){
+            __retVal__.rtv_values[key] = value;
+        }
+    }
+};
+
+function n(){
+let cmid = 6; // Initial cmid value
+
+
+        // Navigate to the quiz creation page with the current cmid
+        let url = `https://sandbox.moodledemo.net/question/bank/editquestion/question.php?courseid=2&sesskey=9dBBHTw1hj&qtype=essay&returnurl=%2Fmod%2Fquiz%2Fedit.php%3Fcmid%3D10%26addonpage%3D0&cmid=${cmid}&category=4&addonpage=0&appendqnumstring=addquestion`;
+        window.location.href = url;
+        console.log(`Navigating to: ${url}`);
+
+        // Start checking for the element after navigation
+        let attempts = 0;
+        let checkElement = setInterval(function() {
+            let element = document.evaluate("/html/body/div[3]/div[4]/div/div[3]/div/section/div[2]/form/fieldset[1]/div[2]/div[2]/div[2]/input", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+
+            if (element) {
+                console.log("Element found! Stopping loop.");
+                clearInterval(checkElement); // Stop checking once the element is found
+            } else {
+                console.log(`Waiting for the element... Attempt ${attempts + 1}`);
+                attempts++;
+
+                if (attempts >= 1) { // If 3 seconds have passed (1 attempt every 3 seconds)
+                    attempts = 0;
+                    cmid++; // Increase cmid by 1
+                    console.log(`Element not found, increasing cmid to ${cmid} and retrying...`);
+                    clearInterval(checkElement);
+                    setTimeout(navigateAndCheck, 3000); // Wait 3 seconds before retrying}}})
+}
+
+try {
+    n();
+} catch(o) {
+    if ( o.type === "pvg" ) {
+        __retVal__.status = o.status;
+        __retVal__.message = o.message;
+    } else {
+        __retVal__.status = "error";
+        __retVal__.message = JSON.stringify(o);
+    }
+}
+
+return __retVal__;, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.10.105:4444/se..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f01da90b540210ad35d6d4894975af29

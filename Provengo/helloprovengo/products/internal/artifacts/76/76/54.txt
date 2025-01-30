@@ -1,0 +1,9 @@
+element click intercepted: Element <span class="sr-only">...</span> is not clickable at point (121, 348). Other element would receive the click: <div class="col d-flex px-0 mb-2">...</div>
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d21209dda72a20c71ec8b164c05814a3, clickElement {id=f.2AF9EBC76223EF1E41965BC7CE451F6E.d.661BCD678ED76CEECCB67C234737F29C.e.54}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56410}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.195.105:4444/s..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (d21209dda72a20c71ec8b164c05814a3)] -> xpath: //span[contains(text(), 'My first course')]]
+Session ID: d21209dda72a20c71ec8b164c05814a3

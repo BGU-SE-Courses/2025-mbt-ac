@@ -1,0 +1,1 @@
+Expected condition failed: waiting for at least one condition to be valid: presence of element located by: By.xpath: //p[@id='yui_3_18_1_1_1738063846362_35' and contains(text(), 'message 2')] (tried for 5 second(s) with 500 milliseconds interval)

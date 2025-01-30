@@ -1,0 +1,1 @@
+Expected condition failed: waiting for at least one condition to be valid: presence of element located by: By.xpath: //div[@id='post-content-1']//p[contains(text(), 'message 2')] (tried for 5 second(s) with 500 milliseconds interval)

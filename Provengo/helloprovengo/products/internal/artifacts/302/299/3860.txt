@@ -1,0 +1,4 @@
+Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on Windows 11 (4fd482ab166e164651e0280c708a83fb)] -> xpath: /html/body/div[2]/nav/div/div[2]/form/div/div/input] (tried for 5 second(s) with 200 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: unknown

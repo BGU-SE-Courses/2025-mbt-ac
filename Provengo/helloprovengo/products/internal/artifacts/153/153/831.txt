@@ -1,0 +1,9 @@
+element click intercepted: Element <a href="https://sandbox.moodledemo.net/mod/forum/view.php?id=1" class=" aalink stretched-link" onclick="" data-aria-hidden-tab-index="" tabindex="-1">...</a> is not clickable at point (434, 345). Other element would receive the click: <div data-flexitour="backdrop" style="z-index: 1031;"></div>
+  (Session info: chrome=132.0.6834.83)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d67d3dc59d2887e4ff0bb8057fdd4f8c, clickElement {id=f.EA2F03FF3CD1F435D94E37208F655DC1.d.A4B04DAD88CB5B25C4C4221DED79C006.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.83, chrome: {chromedriverVersion: 132.0.6834.110 (df453a35f09..., userDataDir: C:\Users\yairb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.195.105:4444/s..., se:cdpVersion: 132.0.6834.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (d67d3dc59d2887e4ff0bb8057fdd4f8c)] -> xpath: //a[@href='https://sandbox.moodledemo.net/mod/forum/view.php?id=1']]
+Session ID: d67d3dc59d2887e4ff0bb8057fdd4f8c
