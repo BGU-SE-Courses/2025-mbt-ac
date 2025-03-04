@@ -51,7 +51,7 @@ provengo ensemble --size 5 helloprovengo
 ```
 3. We repeated the last two steps, changing the two size parameters, until we were satisfied with the grade of the generated test suites.
 
-4. We visualized the specification, and highlighted the traces in the optimized test suite create by the previous command and copied the output to [domain-specific.pdf](helloprovengo/products/run-source/testSpace.pdf).
+4. We visualized the specification, and highlighted the traces in the optimized test suite create by the previous command and copied the output to [model.pdf](helloprovengo/products/run-source/testSpace.pdf).
 ```shell
 provengo analyze -f pdf --highlight products/run-source/ensemble.json helloprovengo
 ```
