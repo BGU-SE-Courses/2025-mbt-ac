@@ -63,4 +63,4 @@ provengo run -s products/run-source/ensemble.json helloprovengo
 ```shell
 provengo report helloprovengo
 ```
-9. We repeated steps 1--8 for the two-way coverage criterion, where the json name of step 5 is [two-way.json](submission-files/two-way.json) and the pdf name of step 6 is [two-way.pdf](submission-files/two-way.pdf).
+Due to a lack of time, we weren't able to test our program on a two-way criterion.
