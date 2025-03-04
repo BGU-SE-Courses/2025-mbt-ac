@@ -18,7 +18,7 @@ See [Provengo README](helloprovengo/README.md) for a short description of the to
 For a full documentation go to [https://docs.provengo.tech](https://docs.provengo.tech)
 
 ## How we created the test model:
-1. We started by creating the following files: [behavior.js](helloprovengo/spec/js/behavior.js),[actions.js](helloprovengo/spec/js/actions.js), and [data.js](helloprovengo/data/data.js).
+1. We started by creating the following files: [actions.js](helloprovengo/spec/js/actions.js)
 2. We then ran the following command to generate the test model:
 ```shell
 provengo analyze -f PDF helloprovengo   
@@ -30,7 +30,7 @@ provengo run --show-sessions helloprovengo
 ```
 5. We repeated steps 1-4 until we were satisfied with the result.
 6. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The link for the video is [here]($$*TODO* write the link$$).
-7. We copied the generated graph of the model to a file named [model.pdf](submission-files/model.pdf) inside the submission-files directory.
+7. We copied the generated graph of the model to a file named [model.pdf](Provengo/helloprovengo/products/run-source/testSpace.pdf) inside the submission-files directory.
 
 ### Test files
 The test data is in [data.js](helloprovengo/data/data.js), the set of possible actions is in [actions.js](helloprovengo/spec/js/actions.js), and the behavior of the system is in [behavior.js](helloprovengo/spec/js/behavior.js).
