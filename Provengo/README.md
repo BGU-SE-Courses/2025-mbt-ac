@@ -29,12 +29,11 @@ provengo analyze -f PDF helloprovengo
 provengo run --show-sessions helloprovengo
 ```
 5. We repeated steps 1-4 until we were satisfied with the result.
-6. We recorded a video of the running tests and added it to the report. Since more than one browser session was opened, we recorded the entire screen. The link for the video is [here]($$*TODO* write the link$$).
+6. We didn't record a video of the tests running because we defined the selenium server so that each server prints to the console its outputs and doesn't use GUI.
 7. We copied the generated graph of the model to a file named [model.pdf](helloprovengo/products/run-source/testSpace.pdf) inside the submission-files directory.
 
 ### Test files
-The test data is in [data.js](helloprovengo/data/data.js), the set of possible actions is in [actions.js](helloprovengo/spec/js/actions.js), and the behavior of the system is in [behavior.js](helloprovengo/spec/js/behavior.js).
-See the files for a detailed description.
+ the set of possible actions with expected behavior is in [actions.js](helloprovengo/spec/js/actions.js). 
 
 $$*TODO*: Make sure that the text inside the files is informative, self-explanatory, and properly written (meaningful variable names, no magic number, etc.). Specifically, write for each bthread a comment that explain what it does and make sure that the bthread's name reflects its purpose. See the file for an example.$$
 
