@@ -59,7 +59,7 @@ provengo analyze -f pdf --highlight products/run-source/ensemble.json helloprove
 ```shell
 provengo run -s products/run-source/ensemble.json helloprovengo 
 ```
-6. We generated a report of the test-suite run and looked for errors. If errors were found and the reason was a bug in the model, we fixed the model and repeated the steps 2--7. Unfortunately, we couldn't track bugs because we found new bugs every hour when running the program. we upload one version to tracking bugs here  :
+6. We generated a report of the test-suite run and looked for errors. If errors were found and the reason was a bug in the model, we fixed the model and repeated the steps 2--7. Unfortunately, we couldn't track bugs because we found new bugs every hour when running the program. We upload one version to tracking bugs here [index.html](Provengo/helloprovengo/products/reports/index.html) using the following command :
 ```shell
 provengo report helloprovengo
 ```
