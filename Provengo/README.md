@@ -16,7 +16,7 @@ For a full documentation go to [https://docs.provengo.tech](https://docs.proveng
 ## How we created the test model:
 1. We started by creating the following files: [actions.js](helloprovengo/spec/js/actions.js).
 
- \\Due to time constraints, we were unable to separate behaviors from actions, leading us to define all actions within this file. Our primary focus was on test accuracy rather than test structure. As a result, we ended up with numerous events to manage and were unable to merge them into cohesive stories.
+ Personal comment: Due to time constraints, we were unable to separate behaviors from actions, leading us to define all actions within this file. Our primary focus was on test accuracy rather than test structure. As a result, we ended up with numerous events to manage and were unable to merge them into cohesive stories.
 2. We then ran the following command to generate the test model:
 ```shell
 provengo analyze -f PDF helloprovengo   
